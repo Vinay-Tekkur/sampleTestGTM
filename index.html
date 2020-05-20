@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <script>
-     window.dataLayer = window.dataLayer || [];
-     window.dataLayer.push [{
-       pagePostAuthor: 'Vinay Tekkur'
-     }];
-     </script>
     <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -31,21 +25,8 @@
                 <hr class="my-4">
                 <p>used to check the download parameter in google tag manager and also google analytics...Lets Go</p>
                 <p class="lead">
-                  <a onClick="menuClick()" class="btn btn-outline-success btn-lg" href="https://s3-us-west-1.amazonaws.com/mfeed-store-locator.momentfeed.com/Chuck%20E%20Cheese/Web1119_EL.pdf">Get Menu</a>
+                  <a class="btn btn-outline-success btn-lg" href="https://s3-us-west-1.amazonaws.com/mfeed-store-locator.momentfeed.com/Chuck%20E%20Cheese/Web1119_EL.pdf">Get Menu</a>
                 </p>
-              </div>
-    <script>
-        function menuClick(){
-            var linkValue = $(this).attr('href');
-            var ext = linkValue.substr(linkValue.lastIndexOf('.') + 1);
-            // Add data to DataLayer
-            dataLayer.push({
-                'Category': 'download',
-                'Action': ext,
-                'Label': linkValue
-            })
-        }
-    </script>
-    
+              </div> 
 </body>
 </html>
